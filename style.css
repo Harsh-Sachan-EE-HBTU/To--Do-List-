@@ -1,0 +1,22 @@
+.taskList{
+    width:16rem;
+    display:grid;
+    height:auto;
+    align-items:center;
+    grid-template-columns: 20fr 20fr;
+    margin-left: 20px;
+}
+button{
+    background-color: yellow;
+    border:2px solid red;
+}
+body{
+    color: black;
+    background-color: aliceblue;
+}
+li{
+    list-style-type: circle;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
